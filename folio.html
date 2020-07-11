@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .disp
+        {
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            opacity: 0.2;
+            padding: 20px;
+            align-content: center;
+        }
         #nav
         {
             height: 50px;
@@ -12,16 +22,13 @@
             font-size: 30px;
             background-color: black;
             position: fixed;
+            width: 100%;
+            word-spacing: 40px;
         }
         h1
         {
             text-align: center;
             font-size: 40px;
-        }
-        h3
-        {
-            margin-top:-15px ;
-            text-align: center;
         }
         h1:hover
         {
@@ -34,41 +41,76 @@
             background-color: #2D3535;
             margin: 0px;
         }
-        img
+        #top
         {
             width:1515px;
             height: 600px;
         }
-        #a1
-        {
-            text-align: center;
-        }
-        #a2
+        .lnk
         {
             text-decoration: none;
             color: white;
         }
-    </style>
+        #a2
+        {
+            background-color: #4A4F4F;
+            padding: 30px;
+        }
+        </style>
 </head>
 <body>
     <head>
         <section id="nav">
-            <a href="#a1" id="a2">About</a>
+            <a href="#a1" class="lnk">ABOUT</a>
+            <a href="#a2" class="lnk">HOBBIES</a>
         </section>
-        <img src="./images/online-portfolio-featured-image.jpg">
+        <img src="./images/online-portfolio-featured-image.jpg" id="top">
     </head>
     <main>
         <section id="a1">
             <h1>ABOUT ME</h1>
             <hr width="80px">
-            <h1>Yash Saraswat</h1>
-            <h3>Web Developer</h3>
-            <p>I am a new Website Developer who is trying to make effecient Websites</p><br><br>
-            <h3>Objectives</h3>
-            <p>To create fast and reliable websites </p>
+            <h1>Yash Saraswat</h1><br>
+            <center>
+            <section class="disp">
+                <h3>Web Developer</h3>
+                <p>I am a new Website Developer who is trying to make effecient Websites</p>
+            </section>
+            <section class="disp" >
+                <h3>Objectives</h3>
+                <p>To create fast and reliable websites </p>
+            </section>
+            </center>
         </section>
-        <section id="">
-
+        <section id="a2">
+            <h1>HOBBIES</h1>
+            <hr width="80px">
+            <center>
+            <section class="disp">
+                <h3>Music</h3>
+            </section>
+            <section class="disp">
+                <h3>Trekking</h3>
+            </section>
+            <section class="disp">
+                <h3>Travelling</h3>
+            </section>
+            </center>
+        </section>
+        <section id="a3">
+            <h1>HOBBIES</h1>
+            <hr width="80px">
+            <center>
+            <section class="disp">
+                <h3>Music</h3>
+            </section>
+            <section class="disp">
+                <h3>Trekking</h3>
+            </section>
+            <section class="disp">
+                <h3>Travelling</h3>
+            </section>
+            </center>
         </section>
     </main>
 </body>
