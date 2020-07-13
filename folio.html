@@ -14,6 +14,7 @@
             opacity: 0.2;
             padding: 20px;
             align-content: center;
+            margin: 10px;
         }
         #nav
         {
@@ -43,7 +44,7 @@
         }
         #top
         {
-            width:1515px;
+            width:100%;
             height: 600px;
         }
         .lnk
@@ -56,6 +57,20 @@
             background-color: #4A4F4F;
             padding: 30px;
         }
+        #a4
+        {
+            background-color: #4A4F4F;
+            padding: 30px;
+        }
+        #a5
+        {
+            background-color: #959298;
+        }
+        #a5 a
+        {
+            text-decoration: none;
+            color: white;
+        }
         </style>
 </head>
 <body>
@@ -63,13 +78,16 @@
         <section id="nav">
             <a href="#a1" class="lnk">ABOUT</a>
             <a href="#a2" class="lnk">HOBBIES</a>
+            <a href="#a3" class="lnk">PROJECTS</a>
+            <a href="#a4" class="lnk">TECHNICAL</a>
+            <a href="#a5" class="lnk">CONTACT</a>
         </section>
         <img src="./images/online-portfolio-featured-image.jpg" id="top">
     </head>
     <main>
-        <section id="a1">
+        <section id="a1" style="padding: 30px;">
             <h1>ABOUT ME</h1>
-            <hr width="80px">
+            <hr width="50%" color="orange">
             <h1>Yash Saraswat</h1><br>
             <center>
             <section class="disp">
@@ -84,7 +102,7 @@
         </section>
         <section id="a2">
             <h1>HOBBIES</h1>
-            <hr width="80px">
+            <hr width="50%" color="orange">
             <center>
             <section class="disp">
                 <h3>Music</h3>
@@ -97,21 +115,60 @@
             </section>
             </center>
         </section>
-        <section id="a3">
-            <h1>HOBBIES</h1>
-            <hr width="80px">
+        <section id="a3" style="padding: 30px;">
+            <h1>Projects</h1>
+            <hr width="50%" color="orange">
             <center>
             <section class="disp">
-                <h3>Music</h3>
+                <h3>Smart Mirror</h3>
             </section>
             <section class="disp">
-                <h3>Trekking</h3>
+                <a href="https://bharatmeet.live"><h3>Bharatmeet.live</h3></a>
+            </section>
+            </center>
+        </section>
+        <section id="a4" style="padding: 30px;">
+            <h1>Technical Skills</h1>
+            <hr width="50%" color="orange"><br
+            <center>
+            <section class="disp">
+                <h3>Python</h3>
             </section>
             <section class="disp">
-                <h3>Travelling</h3>
+                <h3>C++</h3>
+            </section>
+            <section class="disp">
+                <h3>HTML</h3>
+            </section>
+            <section class="disp">
+                <h3>CSS</h3>
+            </section>
+            <section class="disp">
+                <h3>PHP</h3>
+            </section>
+            <section class="disp">
+                <h3>JAVASCRIPT</h3>
+            </section>
+            <section class="disp">
+                <h3>JAVA</h3>
             </section>
             </center>
         </section>
     </main>
+    <footer align="center">
+        <section id="a5" style="padding: 30px;">
+            <h1>Contact</h1><br><br>
+            <hr width="50%" color="orange">
+        <section class="disp" style="padding: 30px;">
+            <h3>Phone</h3>
+            <p>+919779533369</p>
+        </section>
+        <section class="disp" style="padding: 30px;">
+            <h3>Email
+            </h3>
+            <a href="mailto:saraswatyash879@gmail.com">saraswatyash879@gmail.com</a>
+        </section>
+        </section>
+    </footer>
 </body>
 </html>
